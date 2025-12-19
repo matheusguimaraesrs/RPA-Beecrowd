@@ -1,0 +1,118 @@
+﻿<Window x:Class="WPF_aula1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_aula1"
+        mc:Ignorable="d"
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesign.Brush.Foreground}"
+        Background="#5A5A5A"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        
+        Title="Madeira" Height="600" Width="500" MinHeight="600" MinWidth="500" WindowStartupLocation="CenterScreen">
+
+
+    <Grid >
+ 
+        <Grid 
+            Background="#ffc222" 
+            Height="60" 
+            VerticalAlignment="Top">
+            <Image 
+                Source="/Resources/Img/grodape.png" 
+                HorizontalAlignment="Left"
+                Width="20" 
+                Margin="15"></Image>
+             
+            <TextBlock 
+                TextAlignment="Center" 
+                VerticalAlignment="Top" 
+                HorizontalAlignment="Center" 
+                FontSize="28" Margin="0,10,0,0" 
+                Height="40" Width="400">
+                <Bold>Exercícios Beecrowd</Bold>
+            </TextBlock>
+        </Grid>
+
+        <StackPanel Margin="50 60">
+
+            <StackPanel>
+                
+                <TextBlock 
+                    Margin=" 0 10 0 0" 
+                    TextAlignment="Center" 
+                    Foreground="White">EMAIL:</TextBlock>
+
+                <TextBox 
+                    x:Name="txt_Email" 
+                    Margin="3" 
+                    TextAlignment="Left" 
+                    Background="Silver" 
+                    ></TextBox>
+
+                <TextBlock 
+                    Margin=" 0 10 0 0" 
+                    TextAlignment="Center" 
+                    Foreground="White">SENHA:</TextBlock>
+
+                <PasswordBox 
+                    x:Name="txt_Senha" 
+                    Margin="3" 
+                    Background="Silver"
+                    ></PasswordBox>
+
+            </StackPanel>
+
+            <StackPanel>
+
+                <TextBlock 
+                    Margin=" 0 10 0 0" 
+                    TextAlignment="Center" 
+                    Foreground="Silver">DETALHES:</TextBlock>
+                
+                <TextBox 
+                    x:Name="txt_detalhes"
+                    Background="Silver" 
+                    Height="130" 
+                    Width="280"
+                    TextWrapping="Wrap" 
+                    AcceptsReturn="True"
+                    Margin="3"
+                    IsReadOnly="True"></TextBox>
+                
+            </StackPanel>
+
+            <StackPanel Margin="10">
+                <RadioButton x:Name="rd_consultarAbrir" FontSize="15" Foreground="White" IsChecked="True">Consultar exercícios e abrir o primeiro não feito</RadioButton>
+                <RadioButton x:Name="rd_consutarSomente" FontSize="15" Foreground="White">Somente consultar exercícios</RadioButton>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="10">
+                
+                <Button 
+                    Width="170" 
+                    Height="40" 
+                    Click="Executar" 
+                    Margin="10">
+                    Executar
+                </Button>
+                
+                <Button 
+                    Background="#ffc222" 
+                    Width="170" 
+                    Height="40" 
+                    Click="Encerrar"
+                    Margin="10">
+                    Encerrar
+                </Button>
+                
+            </StackPanel>
+            
+        </StackPanel>
+     
+    </Grid>
+</Window>
