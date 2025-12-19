@@ -31,5 +31,6 @@ C# | .NET | Selenium
 
 # VIDEO TESTE
 
-https://github.com/user-attachments/assets/ca1005ce-7b34-46f8-9378-31737621f28c
+https://github.com/user-attachments/assets/1dc8b17c-6abd-486a-b2ff-8abe844c5c7c
+
 
