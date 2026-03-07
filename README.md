@@ -1,7 +1,7 @@
-# DESSCRIÇÃO
+## DESCRIÇÃO
 O objetivo desse projeto é desenvolver habilidades com Selenium realizando automações de processos e a criação de uma interface mais atraente para o usuário final, conhecida como WPF.
 
-# INSTRUCTIONS
+## INSTRUCTIONS
 Siga as instruções abaixo para testar a RPA:
 
 ### EXECUÇÃO
@@ -18,7 +18,7 @@ Para que o programa funciona, informe:
 4. Clique no botão executar
 5. Caso queira encerrar a WPF basta clicar no botão "encerrar"
 
-# REFERÊNCIAS
+## REFERÊNCIAS
 
 Documentação oficial da Microsoft sobre WPF:
 https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-wpf?view=visualstudio
@@ -26,10 +26,10 @@ https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-wpf?v
 Documentação oficial da Microsoft sobre Selenium:
 https://learn.microsoft.com/pt-br/microsoft-edge/webdriver/?tabs=c-sharp
 
-# TECNOLOGIAS
+## TECNOLOGIAS
 C# | .NET | Selenium
 
-# VIDEO TESTE
+## VIDEO TESTE
 
 https://github.com/user-attachments/assets/1dc8b17c-6abd-486a-b2ff-8abe844c5c7c
 
