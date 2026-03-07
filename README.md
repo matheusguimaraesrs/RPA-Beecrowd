@@ -1,5 +1,6 @@
 ## DESCRIÇÃO
 O objetivo desse projeto é desenvolver habilidades com Selenium realizando automações de processos e a criação de uma interface mais atraente para o usuário final, conhecida como WPF.
+Essa automação irá fazer login em uma conta no Beecrowd, listar todos os exercícios que foram feitos por página até achar um exercício que ainda não foi feito ou está incorreto e clicar nele para que o usuário possa fazê-lo.
 
 ## INSTRUCTIONS
 Siga as instruções abaixo para testar a RPA:
